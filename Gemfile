@@ -4,7 +4,7 @@ ruby "3.0.5"
 group :development, :test do
   gem 'rspec-rails'
 end
-gem 'pg'
+gem "pg"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.2"
 
