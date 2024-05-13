@@ -42,7 +42,7 @@ jobs:
           bundler-cache: true
 
       - name: Install Postgres Client
-        run: apt-get install -y libpq-dev
+        run: apt install -y libpq-dev
 
       - name: Install dependencies
         run: 
@@ -72,7 +72,7 @@ jobs:
           bundler-cache: true
 
       - name: Install Postgres Client
-        run: apt-get install -y libpq-dev
+        run: apt install -y libpq-dev
 
       - name: Install dependencies
         run: 
