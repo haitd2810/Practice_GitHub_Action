@@ -43,7 +43,7 @@ jobs:
           bundler-cache: true
           
       - name: Install dependencies
-        run: |
+        run: 
           bundle install
         shell: bash
 
