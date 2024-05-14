@@ -6,6 +6,7 @@ group :development, :test do
   gem 'rspec-rails'
 end
 gem 'bundler-audit', require: false
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.2"
 gem "pg"
